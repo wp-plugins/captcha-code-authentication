@@ -40,6 +40,6 @@ Uninstalling is as simple as deactivating the plugin.
 
 == Screenshots ==
 
-1. screenshot1.png
+1. screenshot1.gif
 2. screenshot2.png
 3. screenshot3.png
