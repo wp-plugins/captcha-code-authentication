@@ -1,4 +1,4 @@
-=== Captcha Code Authentication ===
+=== Captcha Code ===
 Contributors: vinoj.cardoza
 Donate link: http://www.fingerfish.com/
 Tags: captcha, wordpress, wordpress captcha, captcha for wordpress, form captcha, forms captcha, captcha security, security
