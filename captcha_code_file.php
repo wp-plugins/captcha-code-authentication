@@ -9,7 +9,44 @@ $font = './monofont.ttf';
 
 //The characters that can be used in the CAPTCHA code.
 //avoid confusing characters (l 1 and i for example)
-$possible_letters = '23456789bcdfghjkmnpqrstvwxyz';
+if($_SESSION['captcha_type'] == 'alphanumeric'){
+	switch($_SESSION['captcha_letters']){
+		case 'capital': 
+			$possible_letters = '23456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+			break;
+		case 'small': 
+			$possible_letters = '23456789bcdfghjkmnpqrstvwxyz';
+			break;
+		case 'capitalsmall':
+			$possible_letters = '23456789bcdfghjkmnpqrstvwxyzABCEFGHJKMNPRSTVWXYZ';
+			break;
+		default:
+			$possible_letters = '23456789bcdfghjkmnpqrstvwxyz';
+			break;
+	} 
+}
+elseif($_SESSION['captcha_type'] == 'alphabets'){
+	switch($_SESSION['captcha_letters']){
+		case 'capital': 
+			$possible_letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+			break;
+		case 'small': 
+			$possible_letters = 'bcdfghjkmnpqrstvwxyz';
+			break;
+		case 'capitalsmall':
+			$possible_letters = 'bcdfghjkmnpqrstvwxyzABCEFGHJKMNPRSTVWXYZ';
+			break;
+		default:
+			$possible_letters = 'abcdefghijklmnopqrstuvwxyz';
+			break;
+	}
+}
+elseif($_SESSION['captcha_type'] == 'numbers'){
+	$possible_letters = '0123456789';
+}
+else{
+	$possible_letters = '23456789bcdfghjkmnpqrstvwxyz';
+}
 $random_dots = 0;
 $random_lines = 20;
 $captcha_text_color="0x142864";
