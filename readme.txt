@@ -24,7 +24,7 @@ Adds Captcha Code anti-spam methods to WordPress forms. Forms include comments f
 = Donations =
 
 Thanks for downloading and installing my plugin. You can show your appreciation and support future development by donating. 
-To donate visit my site http://www.fingerfish.com. If not feel free to use it without any obligations.
+To donate visit my site http://www.fingerfish.com.
 
 For more visit: http://fingerfish.com/captcha-code-authentication/
 
