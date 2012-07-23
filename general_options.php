@@ -6,7 +6,7 @@ function wp_captcha_general_options(){
 	<table>
 		<tr>
 			<td width="50"><img src="<?php echo WP_CAPTCHA_DIR_URL . 'public/images/form_captcha.gif';?>" /></td>
-			<td><h2><?php _e('Captcha Code Authentication for Wordpress - Options', 'wpcaptchadomain');?></h2></td>
+			<td><h2><?php _e('CAPTCHA', 'wpcaptchadomain');?></h2></td>
 		</tr>
 	</table>
 	<br /><br />
@@ -50,81 +50,81 @@ if(isset($_POST['save_captcha_options'])){
 	$c_letters = get_option('wpcaptcha_letters');
 ?>
 	<form method="post" action="">
-	<table>
-		<tr height="40">
-			<td><b><?php print __("Enable Captcha for Login form");?>: </b></td>
-			<td>
-				<select name="captcha_login" style="width:75px;margin:0;">
-					<option value="yes" <?php echo $c_login_yes;?>>Yes</option>
-					<option value="no" <?php echo $c_login_no;?>>No</option>
-				</select>			
-			</td>
-		</tr>
-		<tr height="40">
-			<td><b><?php print __('Enable Captcha for Register form');?>: </b></td>
-			<td>
-				<select name="captcha_register" style="width:75px;margin:0;">
-					<option value="yes" <?php echo $c_register_yes;?>>Yes</option>
-					<option value="no" <?php echo $c_register_no;?>>No</option>
-				</select>			
-			</td>
-		</tr>
-		<tr height="40">
-			<td><b><?php print __('Enable Captcha for Lost Password form');?>: </b></td>
-			<td>
-				<select name="captcha_lost" style="width:75px;margin:0;">
-					<option value="yes" <?php echo $c_lost_yes;?>>Yes</option>
-					<option value="no" <?php echo $c_lost_no;?>>No</option>
-				</select>			
-			</td>
-		</tr>
-		<tr height="40">
-			<td><b><?php print __('Enable Captcha for Comments form');?>: </b></td>
-			<td>
-				<select name="captcha_comments" style="width:75px;margin:0;">
-					<option value="yes" <?php echo $c_comments_yes;?>>Yes</option>
-					<option value="no" <?php echo $c_comments_no;?>>No</option>
-				</select>			
-			</td>
-		</tr>
-		<tr height="40">
-			<td><b><?php print __('Hide Captcha for logged in users');?>: </b></td>
-			<td>
-				<select name="captcha_registered" style="width:75px;margin:0;">
-					<option value="yes" <?php echo $c_registered_yes;?>>Yes</option>
-					<option value="no" <?php echo $c_registered_no;?>>No</option>
-				</select>			
-			</td>
-		</tr>
+        <table>
+            <tr height="40">
+                <td><b><?php _e('Select Captcha letters type', 'wpcaptchadomain');?>: </b></td>
+                <td>
+                    <select name="captcha_letters" style="margin:0;">
+                            <option value="capital" <?php if($c_letters == 'capital') echo 'selected="selected"';?>><?php _e('Capital letters only', 'wpcaptchadomain');?></option>
+                            <option value="small" <?php if($c_letters == 'small') echo 'selected="selected"';?>><?php _e('Small letters only', 'wpcaptchadomain');?></option>
+                            <option value="capitalsmall" <?php if($c_letters == 'capitalsmall') echo 'selected="selected"';?>><?php _e('Capital & Small letters', 'wpcaptchadomain');?></option>
+                    </select>			
+                </td>
+            </tr>
+            <tr height="40">
+                <td><b><?php _e('Select a Captcha type', 'wpcaptchadomain');?>: </b></td>
+                <td>
+                    <select name="captcha_type" style="margin:0;">
+                        <option value="alphanumeric" <?php if($c_type == 'alphanumeric') echo 'selected="selected"';?>><?php _e('Alphanumeric', 'wpcaptchadomain');?></option>
+                        <option value="alphabets" <?php if($c_type == 'alphabets') echo 'selected="selected"';?>><?php _e('Alphabets only', 'wpcaptchadomain');?></option>
+                        <option value="numbers" <?php if($c_type == 'numbers') echo 'selected="selected"';?>><?php _e('Numbers only', 'wpcaptchadomain');?></option>
+                    </select>			
+                </td>
+        </tr>
+    </table>
+    <h3><?php _e('Captcha display Options', 'wpcaptchadomain');?></h3>
+    <table>
+            <tr height="40">
+                    <td><b><?php _e("Enable Captcha for Login form", "wpcaptchadomain");?>: </b></td>
+                    <td>
+                            <select name="captcha_login" style="width:75px;margin:0;">
+                                    <option value="yes" <?php echo $c_login_yes;?>><?php _e('Yes', 'wpcaptchadomain');?></option>
+                                    <option value="no" <?php echo $c_login_no;?>><?php _e('No', 'wpcaptchadomain');?></option>
+                            </select>			
+                    </td>
+            </tr>
+            <tr height="40">
+                    <td><b><?php _e('Enable Captcha for Register form', 'wpcaptchadomain');?>: </b></td>
+                    <td>
+                            <select name="captcha_register" style="width:75px;margin:0;">
+                                    <option value="yes" <?php echo $c_register_yes;?>><?php _e('Yes', 'wpcaptchadomain');?></option>
+                                    <option value="no" <?php echo $c_register_no;?>><?php _e('No', 'wpcaptchadomain');?></option>
+                            </select>			
+                    </td>
+            </tr>
+            <tr height="40">
+                    <td><b><?php _e('Enable Captcha for Lost Password form', 'wpcaptchadomain');?>: </b></td>
+                    <td>
+                            <select name="captcha_lost" style="width:75px;margin:0;">
+                                    <option value="yes" <?php echo $c_lost_yes;?>><?php _e('Yes', 'wpcaptchadomain');?></option>
+                                    <option value="no" <?php echo $c_lost_no;?>><?php _e('No', 'wpcaptchadomain');?></option>
+                            </select>			
+                    </td>
+            </tr>
+            <tr height="40">
+                    <td><b><?php _e('Enable Captcha for Comments form', 'wpcaptchadomain');?>: </b></td>
+                    <td>
+                            <select name="captcha_comments" style="width:75px;margin:0;">
+                                    <option value="yes" <?php echo $c_comments_yes;?>><?php _e('Yes', 'wpcaptchadomain');?></option>
+                                    <option value="no" <?php echo $c_comments_no;?>><?php _e('No', 'wpcaptchadomain');?></option>
+                            </select>			
+                    </td>
+            </tr>
+            <tr height="40">
+                    <td><b><?php _e('Hide Captcha for logged in users', 'wpcaptchadomain');?>: </b></td>
+                    <td>
+                            <select name="captcha_registered" style="width:75px;margin:0;">
+                                    <option value="yes" <?php echo $c_registered_yes;?>><?php _e('Yes', 'wpcaptchadomain');?></option>
+                                    <option value="no" <?php echo $c_registered_no;?>><?php _e('No', 'wpcaptchadomain');?></option>
+                            </select>			
+                    </td>
+            </tr>
+            <tr height="60">
+                <td><input type="submit" name="save_captcha_options" value="<?php _e('Save', 'wpcaptchadomain');?>" /></td>
+                <td></td>
+            </tr>
 	</table>
-	<br />
-	<h3><?php print __('Captcha Options');?></h3>
-	<table>
-		<tr height="40">
-			<td><b><?php print __('Select Captcha letters type');?>: </b></td>
-			<td>
-				<select name="captcha_letters" style="width:175px;margin:0;">
-					<option value="capital" <?php if($c_letters == 'capital') echo 'selected="selected"';?>><?php _e('Capital letters only');?></option>
-					<option value="small" <?php if($c_letters == 'small') echo 'selected="selected"';?>><?php _e('Small letters only');?></option>
-					<option value="capitalsmall" <?php if($c_letters == 'capitalsmall') echo 'selected="selected"';?>><?php _e('Capital & Small letters');?></option>
-				</select>			
-			</td>
-		</tr>
-		<tr height="40">
-			<td><b><?php print __('Select a Captcha type');?>: </b></td>
-			<td>
-				<select name="captcha_type" style="width:175px;margin:0;">
-					<option value="alphanumeric" <?php if($c_type == 'alphanumeric') echo 'selected="selected"';?>><?php _e('Alphanumeric');?></option>
-					<option value="alphabets" <?php if($c_type == 'alphabets') echo 'selected="selected"';?>><?php _e('Alphabets only');?></option>
-					<option value="numbers" <?php if($c_type == 'numbers') echo 'selected="selected"';?>><?php _e('Numbers only');?></option>
-				</select>			
-			</td>
-		</tr>
-		<tr height="60">
-			<td><input type="submit" name="save_captcha_options" value="Save options" /></td>
-			<td></td>
-		</tr>
-	</table>
+	
 	</form>
 	</div>
 <?php

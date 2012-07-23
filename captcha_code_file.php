@@ -45,7 +45,7 @@ elseif($_SESSION['captcha_type'] == 'numbers'){
 	$possible_letters = '0123456789';
 }
 else{
-	$possible_letters = '23456789bcdfghjkmnpqrstvwxyz';
+	$possible_letters = '0123456789';
 }
 $random_dots = 0;
 $random_lines = 20;

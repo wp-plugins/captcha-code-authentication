@@ -3,7 +3,7 @@
 Plugin Name: Captcha
 Plugin URI: http://fingerfish.com/captcha-code-authentication/
 Description: Adds Captcha Code anti-spam methods to User front-end WordPress forms.
-Version: 1.1
+Version: 1.2
 Author: Vinoj Cardoza
 Author URI: http://fingerfish.com/about-me/
 License: GPL2
@@ -51,7 +51,7 @@ if($login_captcha == 'yes'){
 /* Function to include captcha for login form */
 function include_wp_captcha_login(){
 	echo '<p class="login-form-captcha">
-			<label for="captcha"><b>'. __('Captcha').' </b></label>
+			<label for="captcha"><b>'. __('Captcha', 'wpcaptchadomain').' </b></label>
 			<span class="required">*</span>
 			<div style="clear:both;"></div>
 			<img src="'.WP_CAPTCHA_DIR_URL.'captcha_code_file.php?rand='.rand().'" />
@@ -59,11 +59,11 @@ function include_wp_captcha_login(){
 			
 	/* Will retrieve the get varibale and prints a message from url if the captcha is wrong */
 	if( $_GET['captcha'] == 'confirm_error' ) {
-		echo '<label style="color:#FF0000;" id="capt_err" for="captcha_code_error">'.__($_SESSION['captcha_error']).'</label><div style="clear:both;"></div>';;
+		echo '<label style="color:#FF0000;" id="capt_err" for="captcha_code_error">'.$_SESSION['captcha_error'].'</label><div style="clear:both;"></div>';;
 		$_SESSION['captcha_error'] = '';
 	}
 	
-	echo '<label for="captcha_code">'.__('Type the text displayed above').':</label>
+	echo '<label for="captcha_code">'.__('Type the text displayed above', 'wpcaptchadomain').':</label>
 			<input id="captcha_code" name="captcha_code" size="15" type="text" />
 			</p>';
 	return true;
@@ -75,7 +75,7 @@ function include_captcha_login_errors($errors){
 		return($errors);
 	
 	if($_SESSION['captcha_code'] != $_REQUEST['captcha_code']){
-		return $errors.'<label id="capt_err" for="captcha_code_error">'.__('Captcha confirmation error!').'</label>';
+		return $errors.'<label id="capt_err" for="captcha_code_error">'.__('Captcha confirmation error!', 'wpcaptchadomain').'</label>';
 	}
 	return $errors;
 }
@@ -85,7 +85,7 @@ function include_captcha_login_redirect($url){
 	
 	/* Captcha mismatch */
 	if($_SESSION['captcha_code'] != $_REQUEST['captcha_code']){
-		$_SESSION['captcha_error'] = 'Incorrect captcha confirmation!';
+		$_SESSION['captcha_error'] = __('Incorrect captcha confirmation!', 'wpcaptchadomain');
 		wp_clear_auth_cookie();
 		return $_SERVER["REQUEST_URI"]."/?captcha='confirm_error'";
 	}
@@ -117,12 +117,12 @@ function include_captcha_comment_form(){
 		return true;
 	}
 	echo '<p class="comment-form-captcha">
-		<label for="captcha"><b>'. __('Captcha').' </b></label>
+		<label for="captcha"><b>'. __('Captcha', 'wpcaptchadomain').' </b></label>
 		<span class="required">*</span>
 		<div style="clear:both;"></div>
 		<img src="'.WP_CAPTCHA_DIR_URL.'captcha_code_file.php?rand='.rand().'" />
 		<div style="clear:both;"></div>
-		<label for="captcha_code">'.__('Type the text displayed above').':</label>
+		<label for="captcha_code">'.__('Type the text displayed above', 'wpcaptchadomain').':</label>
 		<input id="captcha_code" name="captcha_code" size="15" type="text" />
 		<div style="clear:both;"></div>
 		</p>';
@@ -137,12 +137,12 @@ function include_wp_captcha_comment_form_wp3(){
 	}
 	
 	echo '<p class="comment-form-captcha">
-		<label for="captcha"><b>'. __('Captcha').' </b></label>
+		<label for="captcha"><b>'. __('Captcha', 'wpcaptchadomain').' </b></label>
 		<span class="required">*</span>
 		<div style="clear:both;"></div>
 		<img src="'.WP_CAPTCHA_DIR_URL.'captcha_code_file.php?rand='.rand().'" />
 		<div style="clear:both;"></div>
-		<label for="captcha_code">'.__('Type the text displayed above').':</label>
+		<label for="captcha_code">'.__('Type the text displayed above', 'wpcaptchadomain').':</label>
 		<input id="captcha_code" name="captcha_code" size="15" type="text" />
 		<div style="clear:both;"></div>
 		</p>';
@@ -174,11 +174,11 @@ function include_captcha_comment_post($comment) {
 	
 	// If captcha is empty
 	if(empty($_REQUEST['captcha_code']))
-		wp_die( __('CAPTCHA cannot be empty.', 'captcha' ) );
+		wp_die( __('CAPTCHA cannot be empty.', 'wpcaptchadomain' ) );
 
 	// captcha was matched
 	if($_SESSION['captcha_code'] == $_REQUEST['captcha_code']) return($comment);
-	else wp_die( __('Error: Incorrect CAPTCHA. Press your browser\'s back button and try again.', 'captcha'));
+	else wp_die( __('Error: Incorrect CAPTCHA. Press your browser\'s back button and try again.', 'wpcaptchadomain'));
 } 
 
 /* <!-- Captcha for Comments authentication ends here --> */
@@ -195,12 +195,12 @@ if($register_captcha == 'yes'){
 /* Function to include captcha for register form */
 function include_wp_captcha_register($default){
 	echo '<p class="register-form-captcha">	
-			<label for="captcha"><b>'. __('Captcha').' </b></label>
+			<label for="captcha"><b>'. __('Captcha', 'wpcaptchadomain').' </b></label>
 			<span class="required">*</span>
 			<div style="clear:both;"></div>
 			<img src="'.WP_CAPTCHA_DIR_URL.'captcha_code_file.php?rand='.rand().'" />
 			<div style="clear:both;"></div>
-			<label for="captcha_code">'.__('Type the text displayed above').':</label>
+			<label for="captcha_code">'.__('Type the text displayed above', 'wpcaptchadomain').':</label>
 			<input id="captcha_code" name="captcha_code" size="15" type="text" />
 			</p>';
 	return true;
@@ -211,14 +211,14 @@ function include_captcha_register_post($login,$email,$errors) {
 
 	// If captcha is blank - add error
 	if ( isset( $_REQUEST['captcha_code'] ) && "" ==  $_REQUEST['captcha_code'] ) {
-		$errors->add('captcha_blank', '<strong>'.__('ERROR', 'captcha').'</strong>: '.__('Please complete the CAPTCHA.', 'captcha'));
+		$errors->add('captcha_blank', '<strong>'.__('ERROR', 'wpcaptchadomain').'</strong>: '.__('Please complete the CAPTCHA.', 'wpcaptchadomain'));
 		return $errors;
 	}
 
 	if ( isset( $_REQUEST['captcha_code'] ) && ($_SESSION['captcha_code'] == $_REQUEST['captcha_code'] )) {
 					// captcha was matched						
 	} else {
-		$errors->add('captcha_wrong', '<strong>'.__('ERROR', 'captcha').'</strong>: '.__('That CAPTCHA was incorrect.', 'captcha'));
+		$errors->add('captcha_wrong', '<strong>'.__('ERROR', 'wpcaptchadomain').'</strong>: '.__('That CAPTCHA was incorrect.', 'wpcaptchadomain'));
 	}
   return($errors);
 } 
@@ -226,14 +226,14 @@ function include_captcha_register_post($login,$email,$errors) {
 
 function include_captcha_register_validate($results) {
 	if ( isset( $_REQUEST['captcha_code'] ) && "" ==  $_REQUEST['captcha_code'] ) {
-		$results['errors']->add('captcha_blank', '<strong>'.__('ERROR', 'captcha').'</strong>: '.__('Please complete the CAPTCHA.', 'captcha'));
+		$results['errors']->add('captcha_blank', '<strong>'.__('ERROR', 'wpcaptchadomain').'</strong>: '.__('Please complete the CAPTCHA.', 'wpcaptchadomain'));
 		return $results;
 	}
 
 	if ( isset( $_REQUEST['captcha_code'] ) && ($_SESSION['captcha_code'] == $_REQUEST['captcha_code'] )) {
 					// captcha was matched						
 	} else {
-		$results['errors']->add('captcha_wrong', '<strong>'.__('ERROR', 'captcha').'</strong>: '.__('That CAPTCHA was incorrect.', 'captcha'));
+		$results['errors']->add('captcha_wrong', '<strong>'.__('ERROR', 'wpcaptchadomain').'</strong>: '.__('That CAPTCHA was incorrect.', 'wpcaptchadomain'));
 	}
   return($results);
 }
@@ -249,12 +249,12 @@ if($lost_captcha == 'yes'){
 /* Function to include captcha for lost password form */
 function include_wp_captcha_lostpassword($default){
 	echo '<p class="lost-form-captcha">
-		<label for="captcha"><b>'. __('Captcha').' </b></label>
+		<label for="captcha"><b>'. __('Captcha', 'wpcaptchadomain').' </b></label>
 		<span class="required">*</span>
 		<div style="clear:both;"></div>
 		<img src="'.WP_CAPTCHA_DIR_URL.'captcha_code_file.php?rand='.rand().'" />
 		<div style="clear:both;"></div>
-		<label for="captcha_code">'.__('Type the text displayed above').':</label>
+		<label for="captcha_code">'.__('Type the text displayed above', 'wpcaptchadomain').':</label>
 		<input id="captcha_code" name="captcha_code" size="15" type="text" />
 		</p>';	
 }
@@ -265,14 +265,14 @@ function include_wp_captcha_lostpassword_post() {
 
 	// If captcha doesn't entered
 	if ( isset( $_REQUEST['captcha_code'] ) && "" ==  $_REQUEST['captcha_code'] ) {
-		wp_die( __( 'Please complete the CAPTCHA.', 'captcha' ) );
+		wp_die( __( 'Please complete the CAPTCHA.', 'wpcaptchadomain' ) );
 	}
 	
 	// Check entered captcha
 	if ( isset( $_REQUEST['captcha_code'] ) && ($_SESSION['captcha_code'] == $_REQUEST['captcha_code'] )) {
 		return;
 	} else {
-		wp_die( __( 'Error: You entered in the wrong CAPTCHA phrase. Press your browser\'s back button and try again.', 'captcha' ) );
+		wp_die( __( 'Error: Incorrect CAPTCHA. Press your browser\'s back button and try again.', 'wpcaptchadomain' ) );
 	}
 } // function cptch_lostpassword_post
 ?>

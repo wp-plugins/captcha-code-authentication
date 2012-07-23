@@ -16,6 +16,7 @@ Adds Captcha Code anti-spam methods to WordPress forms. Forms include comments f
 1. Administrator can specify where the captcha should be displayed i.e, comments, login, registration or lost password form.
 2. Administrator select the letters type from the options available - Capital letters, Small letters or Captial & Small letters.
 3. Administrator select the captcha type from the options available - Alphanumeric, Alphabets or numbers.
+4. Translation enabled.
 
 = Note =
 1. If you find any bugs, please report in the following link, so that it will be fixed as quick as possible.
@@ -26,6 +27,20 @@ Adds Captcha Code anti-spam methods to WordPress forms. Forms include comments f
 Thanks for downloading and installing my plugin. You can show your appreciation and support future development by donating. To donate visit my site http://www.fingerfish.com.
 
 For more visit: http://fingerfish.com/captcha-code-authentication/
+
+= Translation =
+The translation were done using a translation software. I am not sure about the correctness of the translation. If you find some mistakes in the translation of your language, please let me know through the following link comments section. Also, if you couldn't find your language and you can do it, please let me know. http://fingerfish.com/captcha-code-authentication/
+
+Visit the this link to download the translation. http://plugins.trac.wordpress.org/browser/captcha-code-authentication/i18n
+
+= Translated Languages =
+* Dutch
+* French
+* German
+* Portugese (European)
+* Portugese (Brazilian)
+* Russian
+* Spanish (European)
 
 == Installation ==
 
