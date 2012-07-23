@@ -17,7 +17,7 @@ require 'general_options.php';
 /* Hook to initalize the admin menu */
 add_action('admin_menu', 'wp_captcha_admin_menu');
 /* Hook to initialize sessions */
-add_action('init', 'init_sessions');
+add_action('init', 'wp_captcha_init_sessions');
 
 /* To add the menus in the admin section */
 function wp_captcha_admin_menu(){
@@ -25,12 +25,12 @@ function wp_captcha_admin_menu(){
             __('Captcha'),
             'Captcha',
             'manage_options',
-            'wp_cpatcha_slug',
+            'wp_captcha_slug',
             'wp_captcha_general_options',
             WP_CAPTCHA_DIR_URL . 'public/images/captcha.gif');
 }
 
-function init_sessions(){
+function wp_captcha_init_sessions(){
 	if(!session_id()){
 		session_start();
 	}
