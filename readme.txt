@@ -65,6 +65,9 @@ Uninstalling is as simple as deactivating the plugin.
 
 == Change Log ==
 
+= Version 1.2 =
+* Translation enabled.
+
 = Version 1.1 =
 * New feature added to select the captcha letter type.
 * New feature added to select the captcha type.
