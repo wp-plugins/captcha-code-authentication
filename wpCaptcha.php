@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Captcha Code Authentication
+Plugin Name: Captcha
 Plugin URI: http://fingerfish.com/captcha-code-authentication/
 Description: Adds Captcha Code anti-spam methods to User front-end WordPress forms.
 Version: 1.1
@@ -34,7 +34,7 @@ function init_sessions(){
 	if(!session_id()){
 		session_start();
 	}
-	load_plugin_textdomain('wpcaptchadomain', false, dirname( plugin_basename(__FILE__)));
+	load_plugin_textdomain('wpcaptchadomain', false, dirname( plugin_basename(__FILE__)).'/languages');
 	$_SESSION['captcha_type'] = get_option('wpcaptcha_type');
 	$_SESSION['captcha_letters'] = get_option('wpcaptcha_letters');
 }
