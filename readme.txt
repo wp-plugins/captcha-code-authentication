@@ -35,7 +35,7 @@ Visit this link to download the translation. http://plugins.trac.wordpress.org/b
 
 = Translation available for following languages =
 * Dutch
-* French
+* French (Translated by Laurent Verpeet)
 * German
 * Portugese (European)
 * Portugese (Brazilian)
