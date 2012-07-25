@@ -31,8 +31,6 @@ For more visit: http://fingerfish.com/captcha-code-authentication/
 = Translation =
 The translation were done using a translation software. I am not sure about the correctness of the translation. If you find some mistakes in the translation of your language, please let me know through the following link comments section. Also, if you couldn't find your language and you can do it, please let me know. http://fingerfish.com/captcha-code-authentication/
 
-Visit this link to download the translation. http://plugins.trac.wordpress.org/browser/captcha-code-authentication/i18n
-
 = Translation available for following languages =
 * Czech (Translated by Jan)
 * Dutch
