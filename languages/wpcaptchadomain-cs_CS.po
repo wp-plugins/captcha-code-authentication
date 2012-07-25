@@ -1,0 +1,153 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpcaptchadomain\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-25 11:09-0000\n"
+"PO-Revision-Date: 2012-07-25 11:14-0000\n"
+"Last-Translator: Vinoj Cardoza <vinoj.cardoza@hotmail.com>\n"
+"Language-Team: Vinoj Cardoza <vinoj.cardoza@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Czech\n"
+"X-Poedit-Country: CZECH REPUBLIC\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../general_options.php:9
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: ../general_options.php:16
+msgid "Options saved."
+msgstr "Volby uloženy"
+
+#: ../general_options.php:55
+msgid "Select Captcha letters type"
+msgstr "Vyberte písmo pro Captcha"
+
+#: ../general_options.php:58
+msgid "Capital letters only"
+msgstr "Pouze velká písmena"
+
+#: ../general_options.php:59
+msgid "Small letters only"
+msgstr "Pouze malá písmena"
+
+#: ../general_options.php:60
+msgid "Capital & Small letters"
+msgstr "Velká a malá písmena"
+
+#: ../general_options.php:65
+msgid "Select a Captcha type"
+msgstr "Vyberte typ Captcha"
+
+#: ../general_options.php:68
+msgid "Alphanumeric"
+msgstr "Písmena a čísla"
+
+#: ../general_options.php:69
+msgid "Alphabets only"
+msgstr "Pouze písmena"
+
+#: ../general_options.php:70
+msgid "Numbers only"
+msgstr "Pouze čísla"
+
+#: ../general_options.php:75
+msgid "Captcha display Options"
+msgstr "Možnosti zobrazení Captcha"
+
+#: ../general_options.php:78
+msgid "Enable Captcha for Login form"
+msgstr "Povolit Captcha pro přihlašovací formulář"
+
+#: ../general_options.php:81
+#: ../general_options.php:90
+#: ../general_options.php:99
+#: ../general_options.php:108
+#: ../general_options.php:117
+msgid "Yes"
+msgstr "Ano"
+
+#: ../general_options.php:82
+#: ../general_options.php:91
+#: ../general_options.php:100
+#: ../general_options.php:109
+#: ../general_options.php:118
+msgid "No"
+msgstr "Ne"
+
+#: ../general_options.php:87
+msgid "Enable Captcha for Register form"
+msgstr "Povolit Captcha pro registrační formulář"
+
+#: ../general_options.php:96
+msgid "Enable Captcha for Lost Password form"
+msgstr "Povolit Captcha pro formulář \"ztracené heslo\""
+
+#: ../general_options.php:105
+msgid "Enable Captcha for Comments form"
+msgstr "Povolit Captcha pro komentáře"
+
+#: ../general_options.php:114
+msgid "Hide Captcha for logged in users"
+msgstr "Skrýt Captcha pro přihlášené uživatele"
+
+#: ../general_options.php:123
+msgid "Save"
+msgstr "Uložit"
+
+#: ../wpCaptcha.php:25
+#: ../wpCaptcha.php:54
+#: ../wpCaptcha.php:120
+#: ../wpCaptcha.php:140
+#: ../wpCaptcha.php:198
+#: ../wpCaptcha.php:252
+msgid "Captcha"
+msgstr "Captcha"
+
+#: ../wpCaptcha.php:66
+#: ../wpCaptcha.php:125
+#: ../wpCaptcha.php:145
+#: ../wpCaptcha.php:203
+#: ../wpCaptcha.php:257
+msgid "Type the text displayed above"
+msgstr "Opište text zobrazený výše"
+
+#: ../wpCaptcha.php:78
+msgid "Captcha confirmation error!"
+msgstr "Chyba v ověření Captcha!"
+
+#: ../wpCaptcha.php:88
+msgid "Incorrect captcha confirmation!"
+msgstr "Nesprávně opsaný kontrolní text!"
+
+#: ../wpCaptcha.php:177
+msgid "CAPTCHA cannot be empty."
+msgstr "Kontrolní text (Captcha) nemůže být prázdný."
+
+#: ../wpCaptcha.php:181
+#: ../wpCaptcha.php:275
+msgid "Error: Incorrect CAPTCHA. Press your browser's back button and try again."
+msgstr "Chyba: Nesprávná CAPTCHA. Vraťte se zpět a zkuste to znovu."
+
+#: ../wpCaptcha.php:214
+#: ../wpCaptcha.php:221
+#: ../wpCaptcha.php:229
+#: ../wpCaptcha.php:236
+msgid "ERROR"
+msgstr "Chyba"
+
+#: ../wpCaptcha.php:214
+#: ../wpCaptcha.php:229
+#: ../wpCaptcha.php:268
+msgid "Please complete the CAPTCHA."
+msgstr "Prosím, opište CAPTCHA."
+
+#: ../wpCaptcha.php:221
+#: ../wpCaptcha.php:236
+msgid "That CAPTCHA was incorrect."
+msgstr "Tato CAPTCHA je chybně."
+
