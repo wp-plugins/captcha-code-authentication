@@ -34,6 +34,7 @@ The translation were done using a translation software. I am not sure about the 
 Visit this link to download the translation. http://plugins.trac.wordpress.org/browser/captcha-code-authentication/i18n
 
 = Translation available for following languages =
+* Czech (Translated by Jan)
 * Dutch
 * French (Translated by Laurent Verpeet)
 * German
