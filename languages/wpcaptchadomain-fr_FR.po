@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: wpcaptchadomain\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-07-24 11:25-0000\n"
-"PO-Revision-Date: 2012-07-24 11:25-0000\n"
+"PO-Revision-Date: 2012-07-26 10:13-0000\n"
 "Last-Translator: Vinoj Cardoza <vinoj.cardoza@hotmail.com>\n"
 "Language-Team: Vinoj Cardoza <vinoj.cardoza@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -131,7 +131,7 @@ msgstr "CAPTCHA ne peux pas être vide."
 #: ../wpCaptcha.php:181
 #: ../wpCaptcha.php:275
 msgid "Error: Incorrect CAPTCHA. Press your browser's back button and try again."
-msgstr "Erreur: CAPTCHA incorrecte. Pressez le bouton retour en arrière de votre navigateur et réessayé à nouveau."
+msgstr "Erreur: CAPTCHA incorrecte. Pressez le bouton retour en arrière de votre navigateur  et réessayez à nouveau."
 
 #: ../wpCaptcha.php:214
 #: ../wpCaptcha.php:221
