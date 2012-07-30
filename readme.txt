@@ -35,7 +35,7 @@ The translation were done using a translation software. I am not sure about the 
 * Czech (Translated by Jan)
 * Dutch
 * French (Translated by Laurent Verpeet)
-* German
+* German (Tranlsated by Simon)
 * Portugese (European)
 * Portugese (Brazilian)
 * Russian
@@ -63,6 +63,9 @@ Uninstalling is as simple as deactivating the plugin.
 4. screenshot-4.png
 
 == Change Log ==
+
+= Version 1.3 =
+* German, French and Czech translation improved and re-updated.
 
 = Version 1.2 =
 * Translation enabled.
