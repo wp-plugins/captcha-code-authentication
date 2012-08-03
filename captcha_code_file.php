@@ -4,7 +4,7 @@ session_start();
 //Settings: You can customize the captcha here
 $image_width = 120;
 $image_height = 40;
-$characters_on_image = 6;
+$characters_on_image = $_SESSION['total_no_of_characters'];
 $font = './monofont.ttf';
 
 //The characters that can be used in the CAPTCHA code.

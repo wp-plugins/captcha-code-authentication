@@ -29,6 +29,8 @@ if(isset($_POST['save_captcha_options'])){
 		update_option('wpcaptcha_type', $_POST['captcha_type']);
 	if(isset($_POST['captcha_letters'])) 
 		update_option('wpcaptcha_letters', $_POST['captcha_letters']);
+	if(isset($_POST['total_no_of_characters'])) 
+		update_option('wpcaptcha_total_no_of_characters', $_POST['total_no_of_characters']);
 }
 
 	$c_login = get_option('wpcaptcha_login');
@@ -48,6 +50,7 @@ if(isset($_POST['save_captcha_options'])){
 	else $c_registered_no = 'selected="selected"';
 	$c_type = get_option('wpcaptcha_type');
 	$c_letters = get_option('wpcaptcha_letters');
+	$c_total_no_of_characters = get_option('wpcaptcha_total_no_of_characters');
 ?>
 	<form method="post" action="">
         <table>
@@ -70,7 +73,21 @@ if(isset($_POST['save_captcha_options'])){
                         <option value="numbers" <?php if($c_type == 'numbers') echo 'selected="selected"';?>><?php _e('Numbers only', 'wpcaptchadomain');?></option>
                     </select>			
                 </td>
-        </tr>
+        	</tr>
+			<tr height="40">
+                <td><b><?php _e('Total number of Captcha Characters', 'wpcaptchadomain');?>: </b></td>
+                <td>
+                    <select name="total_no_of_characters" style="margin:0;width: 50px;">
+					<?php 
+						for($i=3; $i<=6; $i++){
+                        	print '<option value="'.$i.'" ';
+							if($c_total_no_of_characters == $i) echo 'selected="selected"';
+							print '>'.$i.'</option>';
+						}
+					?>
+                    </select>			
+                </td>
+        	</tr>
     </table>
     <h3><?php _e('Captcha display Options', 'wpcaptchadomain');?></h3>
     <table>

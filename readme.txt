@@ -63,8 +63,8 @@ Uninstalling is as simple as deactivating the plugin.
 4. screenshot-4.png
 
 == Change Log ==
-= Version 1.3.1 =
-* Minor modification on the German translation.
+= Version 1.4 =
+* Option enabled to restrict the number of character in the captcha code from 3 to 6.
 
 = Version 1.3 =
 * German, French and Czech translation improved and re-updated.

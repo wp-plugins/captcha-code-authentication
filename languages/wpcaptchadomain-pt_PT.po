@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: wpcaptchadomain\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-07-23 10:46-0000\n"
-"PO-Revision-Date: 2012-07-23 15:45-0000\n"
+"POT-Creation-Date: 2012-08-03 11:53-0000\n"
+"PO-Revision-Date: 2012-08-03 11:53-0000\n"
 "Last-Translator: Vinoj Cardoza <vinoj.cardoza@hotmail.com>\n"
 "Language-Team: Vinoj Cardoza <vinoj.cardoza@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -23,131 +23,135 @@ msgstr "CAPTCHA"
 msgid "Options saved."
 msgstr "As opções guardaram. "
 
-#: ../general_options.php:55
+#: ../general_options.php:58
 msgid "Select Captcha letters type"
 msgstr "Seleccione letras de Captcha escrever"
 
-#: ../general_options.php:58
+#: ../general_options.php:61
 msgid "Capital letters only"
 msgstr "As letras maiúsculas só"
 
-#: ../general_options.php:59
+#: ../general_options.php:62
 msgid "Small letters only"
 msgstr "A minúscula só"
 
-#: ../general_options.php:60
+#: ../general_options.php:63
 msgid "Capital & Small letters"
 msgstr "O capital & minúscula"
 
-#: ../general_options.php:65
+#: ../general_options.php:68
 msgid "Select a Captcha type"
 msgstr "Seleccione um tipo de Captcha"
 
-#: ../general_options.php:68
+#: ../general_options.php:71
 msgid "Alphanumeric"
 msgstr "Alfanumérico"
 
-#: ../general_options.php:69
+#: ../general_options.php:72
 msgid "Alphabets only"
 msgstr "Os alfabetos só"
 
-#: ../general_options.php:70
+#: ../general_options.php:73
 msgid "Numbers only"
 msgstr "Os números só"
 
-#: ../general_options.php:75
+#: ../general_options.php:78
+msgid "Total number of Captcha Characters"
+msgstr "Número total de caracteres captcha"
+
+#: ../general_options.php:92
 msgid "Captcha display Options"
 msgstr "Opções de exibição de Captcha"
 
-#: ../general_options.php:78
+#: ../general_options.php:95
 msgid "Enable Captcha for Login form"
 msgstr "Capacite Captcha para forma de Login"
 
-#: ../general_options.php:81
-#: ../general_options.php:90
-#: ../general_options.php:99
-#: ../general_options.php:108
-#: ../general_options.php:117
+#: ../general_options.php:98
+#: ../general_options.php:107
+#: ../general_options.php:116
+#: ../general_options.php:125
+#: ../general_options.php:134
 msgid "Yes"
 msgstr "Sim"
 
-#: ../general_options.php:82
-#: ../general_options.php:91
-#: ../general_options.php:100
-#: ../general_options.php:109
-#: ../general_options.php:118
+#: ../general_options.php:99
+#: ../general_options.php:108
+#: ../general_options.php:117
+#: ../general_options.php:126
+#: ../general_options.php:135
 msgid "No"
 msgstr "Não"
 
-#: ../general_options.php:87
+#: ../general_options.php:104
 msgid "Enable Captcha for Register form"
 msgstr "Capacite Captcha para forma de Registo"
 
-#: ../general_options.php:96
+#: ../general_options.php:113
 msgid "Enable Captcha for Lost Password form"
 msgstr "Capacite Captcha para forma Perdida de palavra-passe"
 
-#: ../general_options.php:105
+#: ../general_options.php:122
 msgid "Enable Captcha for Comments form"
 msgstr "Capacite Captcha para Comentários formar"
 
-#: ../general_options.php:114
+#: ../general_options.php:131
 msgid "Hide Captcha for logged in users"
 msgstr "Esconda Captcha para fazer utilizadores de logon"
 
-#: ../general_options.php:123
+#: ../general_options.php:140
 msgid "Save"
 msgstr "Guarde"
 
 #: ../wpCaptcha.php:25
-#: ../wpCaptcha.php:54
-#: ../wpCaptcha.php:120
-#: ../wpCaptcha.php:140
-#: ../wpCaptcha.php:198
-#: ../wpCaptcha.php:252
+#: ../wpCaptcha.php:58
+#: ../wpCaptcha.php:124
+#: ../wpCaptcha.php:144
+#: ../wpCaptcha.php:202
+#: ../wpCaptcha.php:256
 msgid "Captcha"
 msgstr "Captcha"
 
-#: ../wpCaptcha.php:66
-#: ../wpCaptcha.php:125
-#: ../wpCaptcha.php:145
-#: ../wpCaptcha.php:203
-#: ../wpCaptcha.php:257
+#: ../wpCaptcha.php:70
+#: ../wpCaptcha.php:129
+#: ../wpCaptcha.php:149
+#: ../wpCaptcha.php:207
+#: ../wpCaptcha.php:261
 msgid "Type the text displayed above"
 msgstr "Escreva o texto exibido acima"
 
-#: ../wpCaptcha.php:78
+#: ../wpCaptcha.php:82
 msgid "Captcha confirmation error!"
 msgstr "Erro de confirmação de Captcha! "
 
-#: ../wpCaptcha.php:88
+#: ../wpCaptcha.php:92
 msgid "Incorrect captcha confirmation!"
 msgstr "Confirmação incorrecta de captcha! "
 
-#: ../wpCaptcha.php:177
+#: ../wpCaptcha.php:181
 msgid "CAPTCHA cannot be empty."
 msgstr "CAPTCHA não pode estar vazio. "
 
-#: ../wpCaptcha.php:181
-#: ../wpCaptcha.php:275
+#: ../wpCaptcha.php:185
+#: ../wpCaptcha.php:279
 msgid "Error: Incorrect CAPTCHA. Press your browser's back button and try again."
 msgstr "O erro: CAPTCHA incorrecto. Pressione seu botão traseiro do navegador e tentativa outra vez. "
 
-#: ../wpCaptcha.php:214
-#: ../wpCaptcha.php:221
-#: ../wpCaptcha.php:229
-#: ../wpCaptcha.php:236
+#: ../wpCaptcha.php:218
+#: ../wpCaptcha.php:225
+#: ../wpCaptcha.php:233
+#: ../wpCaptcha.php:240
 msgid "ERROR"
 msgstr "ERRO"
 
-#: ../wpCaptcha.php:214
-#: ../wpCaptcha.php:229
-#: ../wpCaptcha.php:268
+#: ../wpCaptcha.php:218
+#: ../wpCaptcha.php:233
+#: ../wpCaptcha.php:272
 msgid "Please complete the CAPTCHA."
 msgstr "Por favor complete o CAPTCHA. "
 
-#: ../wpCaptcha.php:221
-#: ../wpCaptcha.php:236
+#: ../wpCaptcha.php:225
+#: ../wpCaptcha.php:240
 msgid "That CAPTCHA was incorrect."
 msgstr "Esse CAPTCHA era incorrecto. "
 
