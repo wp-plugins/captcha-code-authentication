@@ -1,0 +1,168 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpcaptchadomain\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-24 11:25-0000\n"
+"PO-Revision-Date: 2012-07-26 10:13-0000\n"
+"Last-Translator: Vinoj Cardoza <vinoj.cardoza@hotmail.com>\n"
+"Language-Team: Vinoj Cardoza <vinoj.cardoza@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../general_options.php:9
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: ../general_options.php:16
+msgid "Options saved."
+msgstr "Options sauvées."
+
+#: ../general_options.php:55
+msgid "Select Captcha letters type"
+msgstr "Selection du type caractères du Captcha"
+
+#: ../general_options.php:58
+msgid "Capital letters only"
+msgstr "Uniquement des caractères majuscules"
+
+#: ../general_options.php:59
+msgid "Small letters only"
+msgstr "Uniquement des caractères minuscules"
+
+#: ../general_options.php:60
+msgid "Capital & Small letters"
+msgstr "Caractères majuscules & minuscules"
+
+#: ../general_options.php:65
+msgid "Select a Captcha type"
+msgstr "Sélection un type de Captcha"
+
+#: ../general_options.php:68
+msgid "Alphanumeric"
+msgstr "Alphanumérique"
+
+#: ../general_options.php:69
+msgid "Alphabets only"
+msgstr "Uniquement alphabétiques"
+
+#: ../general_options.php:70
+msgid "Numbers only"
+msgstr "Uniquement numériques"
+
+#: ../general_options.php:75
+msgid "Captcha display Options"
+msgstr "Options d'affichage du Captcha"
+
+#: ../general_options.php:78
+msgid "Enable Captcha for Login form"
+msgstr "Activer le Captcha pour le formulaire d'accès"
+
+#: ../general_options.php:81
+#: ../general_options.php:90
+#: ../general_options.php:99
+#: ../general_options.php:108
+#: ../general_options.php:117
+msgid "Yes"
+msgstr "Oui"
+
+#: ../general_options.php:82
+#: ../general_options.php:91
+#: ../general_options.php:100
+#: ../general_options.php:109
+#: ../general_options.php:118
+msgid "No"
+msgstr "Non"
+
+#: ../general_options.php:87
+msgid "Enable Captcha for Register form"
+msgstr "Activer le Captcha pour le formulaire d'enregistrement"
+
+#: ../general_options.php:96
+msgid "Enable Captcha for Lost Password form"
+msgstr "Activer le Captcha pour le formulaire de perte de mot de passe"
+
+#: ../general_options.php:105
+msgid "Enable Captcha for Comments form"
+msgstr "Activer le Captcha pour le formulaire de commentaires"
+
+#: ../general_options.php:114
+msgid "Hide Captcha for logged in users"
+msgstr "Cacher le Captcha pour les utilisateurs connectés"
+
+#: ../general_options.php:123
+msgid "Save"
+msgstr "Sauvé"
+
+#: ../wpCaptcha.php:25
+#: ../wpCaptcha.php:54
+#: ../wpCaptcha.php:120
+#: ../wpCaptcha.php:140
+#: ../wpCaptcha.php:198
+#: ../wpCaptcha.php:252
+msgid "Captcha"
+msgstr "Captcha"
+
+#: ../wpCaptcha.php:66
+#: ../wpCaptcha.php:125
+#: ../wpCaptcha.php:145
+#: ../wpCaptcha.php:203
+#: ../wpCaptcha.php:257
+msgid "Type the text displayed above"
+msgstr "Type de texte à afficher au-dessus"
+
+#: ../wpCaptcha.php:78
+msgid "Captcha confirmation error!"
+msgstr "Erreur de confirmation du Captcha!"
+
+#: ../wpCaptcha.php:88
+msgid "Incorrect captcha confirmation!"
+msgstr "Confirmation du Captcha incorrecte!"
+
+#: ../wpCaptcha.php:177
+msgid "CAPTCHA cannot be empty."
+msgstr "CAPTCHA ne peux pas être vide."
+
+#: ../wpCaptcha.php:181
+#: ../wpCaptcha.php:275
+msgid "Error: Incorrect CAPTCHA. Press your browser's back button and try again."
+msgstr "Erreur: CAPTCHA incorrecte. Pressez le bouton retour en arrière de votre navigateur  et réessayez à nouveau."
+
+#: ../wpCaptcha.php:214
+#: ../wpCaptcha.php:221
+#: ../wpCaptcha.php:229
+#: ../wpCaptcha.php:236
+msgid "ERROR"
+msgstr "ERREUR"
+
+#: ../wpCaptcha.php:214
+#: ../wpCaptcha.php:229
+#: ../wpCaptcha.php:268
+msgid "Please complete the CAPTCHA."
+msgstr "Veuillez compléter le CAPTCHA."
+
+#: ../wpCaptcha.php:221
+#: ../wpCaptcha.php:236
+msgid "That CAPTCHA was incorrect."
+msgstr "Ce CAPTCHA est incorrecte."
+
+#~ msgid "Captcha - Options"
+#~ msgstr "Captcha - Options"
+
+#~ msgid ""
+#~ "Error: You entered in the wrong CAPTCHA phrase. Press your browser's back "
+#~ "button and try again."
+#~ msgstr ""
+#~ "Erreur : Vous êtes entré dans la mauvaise phrase de CAPTCHA. Appuyer le "
+#~ "bouton arrière de votre navigateur et essayer encore. "
+
+#~ msgid "Save options"
+#~ msgstr "Save options"
+
+#~ msgid "Captcha Options"
+#~ msgstr "Captcha Options"
