@@ -63,6 +63,8 @@ Uninstalling is as simple as deactivating the plugin.
 4. screenshot-4.png
 
 == Change Log ==
+= Version 1.3.1 =
+* Minor modification on the German translation.
 
 = Version 1.3 =
 * German, French and Czech translation improved and re-updated.
