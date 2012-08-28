@@ -37,7 +37,7 @@ The translation were done using a translation software. I am not sure about the 
 * French (Translated by Laurent Verpeet)
 * German (Tranlsated by Simon)
 * Portugese (European)
-* Portugese (Brazilian)
+* Portugese - Brazilian (Translated by Rafael Santos)
 * Russian
 * Spanish (European)
 
@@ -63,6 +63,9 @@ Uninstalling is as simple as deactivating the plugin.
 4. screenshot-4.png
 
 == Change Log ==
+= Version 1.5 =
+* Portugese - Brazilian translation updated. (Translated by Rafael Santos)
+
 = Version 1.4 =
 * Option enabled to restrict the number of character in the captcha code from 3 to 6.
 

@@ -3,7 +3,7 @@
 Plugin Name: Captcha Code
 Plugin URI: http://fingerfish.com/captcha-code-authentication/
 Description: Adds Captcha Code anti-spam methods to User front-end WordPress forms.
-Version: 1.4
+Version: 1.6
 Author: Vinoj Cardoza
 Author URI: http://fingerfish.com/about-me/
 License: GPL2
@@ -18,6 +18,17 @@ require 'general_options.php';
 add_action('admin_menu', 'wp_captcha_admin_menu');
 /* Hook to initialize sessions */
 add_action('init', 'wp_captcha_init_sessions');
+
+/* Hook to store the plugin status */
+register_activation_hook(__FILE__, 'wp_captcha_enabled');
+register_deactivation_hook(__FILE__, 'wp_captcha_disabled');
+
+function wp_captcha_enabled(){
+	update_option('wpcaptcha_status', 'enabled');
+}
+function wp_captcha_disabled(){
+	update_option('wpcaptcha_status', 'disabled');
+}
 
 /* To add the menus in the admin section */
 function wp_captcha_admin_menu(){
