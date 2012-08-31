@@ -33,13 +33,13 @@ The translation were done using a translation software. I am not sure about the 
 
 = Translation available for following languages =
 * Czech (Translated by Jan)
-* Dutch
+* Dutch (Translated by Duncan Bruns)
 * French (Translated by Laurent Verpeet)
 * German (Tranlsated by Simon)
 * Portugese (European)
 * Portugese - Brazilian (Translated by Rafael Santos)
 * Russian
-* Spanish (European)
+* Spanish (Translated by Juan Cuquejo)
 
 == Installation ==
 
@@ -63,6 +63,10 @@ Uninstalling is as simple as deactivating the plugin.
 4. screenshot-4.png
 
 == Change Log ==
+= Version 1.6 =
+* Dutch translation improved. (Translated by Duncan Bruns)
+* Spanish translation improved. (Translated by Juan Cuquejo)
+
 = Version 1.5 =
 * Portugese - Brazilian translation updated. (Translated by Rafael Santos)
 

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: wpcaptchadomain\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-08-03 11:49-0000\n"
-"PO-Revision-Date: 2012-08-03 11:49-0000\n"
+"PO-Revision-Date: 2012-08-31 09:41-0000\n"
 "Last-Translator: Vinoj Cardoza <vinoj.cardoza@hotmail.com>\n"
 "Language-Team: Vinoj Cardoza <vinoj.cardoza@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -21,23 +21,23 @@ msgstr "CAPTCHA"
 
 #: ../general_options.php:16
 msgid "Options saved."
-msgstr "Opties redden. "
+msgstr "Instellingen opgeslagen."
 
 #: ../general_options.php:58
 msgid "Select Captcha letters type"
-msgstr "Selecteer Captcha brieven typen"
+msgstr "Selecteer Captcha lettersoort"
 
 #: ../general_options.php:61
 msgid "Capital letters only"
-msgstr "Kapitaalsbrieven enkel"
+msgstr "Alleen hoofdletters"
 
 #: ../general_options.php:62
 msgid "Small letters only"
-msgstr "Kleine brieven enkel"
+msgstr "Alleen kleine letters"
 
 #: ../general_options.php:63
 msgid "Capital & Small letters"
-msgstr "Hoofdstad & Kleine brieven"
+msgstr "Hoofd & kleine letters"
 
 #: ../general_options.php:68
 msgid "Select a Captcha type"
@@ -45,15 +45,15 @@ msgstr "Selecteer een Captcha type"
 
 #: ../general_options.php:71
 msgid "Alphanumeric"
-msgstr "Alfanumerisch teken"
+msgstr "Alfanummeriek"
 
 #: ../general_options.php:72
 msgid "Alphabets only"
-msgstr "Alfabetten enkel"
+msgstr "Alleen letters"
 
 #: ../general_options.php:73
 msgid "Numbers only"
-msgstr "Nummers enkel"
+msgstr "Alleen cijfers"
 
 #: ../general_options.php:78
 msgid "Total number of Captcha Characters"
@@ -61,11 +61,11 @@ msgstr "Totaal aantal Captcha tekens"
 
 #: ../general_options.php:92
 msgid "Captcha display Options"
-msgstr "Captcha tentoonstelling Opties"
+msgstr "Captcha weergave opties"
 
 #: ../general_options.php:95
 msgid "Enable Captcha for Login form"
-msgstr "Geef de gelegenheid Captcha voor Login formulier"
+msgstr "Captcha inschakelen op het Login formulier"
 
 #: ../general_options.php:98
 #: ../general_options.php:107
@@ -85,23 +85,23 @@ msgstr "Nee"
 
 #: ../general_options.php:104
 msgid "Enable Captcha for Register form"
-msgstr "Geef de gelegenheid Captcha voor Register formulier"
+msgstr "Captcha inschakelen op Registratie formulier"
 
 #: ../general_options.php:113
 msgid "Enable Captcha for Lost Password form"
-msgstr "Geef de gelegenheid Captcha voor Verloren Wachtwoord formulier"
+msgstr "Captcha inschakelen op Wachtwoord Vergeten formulier"
 
 #: ../general_options.php:122
 msgid "Enable Captcha for Comments form"
-msgstr "Geef de gelegenheid Captcha voor Commentaar om te vormen"
+msgstr "Captcha inschakelen op Reactie formulier"
 
 #: ../general_options.php:131
 msgid "Hide Captcha for logged in users"
-msgstr "Verberg Captcha voor gehakt hout in gebruikers"
+msgstr "Geen Captcha weergeven voor ingelogde gebruikers"
 
 #: ../general_options.php:140
 msgid "Save"
-msgstr "Red"
+msgstr "Opslaan"
 
 #: ../wpCaptcha.php:25
 #: ../wpCaptcha.php:58
@@ -118,24 +118,24 @@ msgstr "Captcha"
 #: ../wpCaptcha.php:207
 #: ../wpCaptcha.php:261
 msgid "Type the text displayed above"
-msgstr "Typ de tekst getoonde boven"
+msgstr "Type de hierboven weergegeven tekst"
 
 #: ../wpCaptcha.php:82
 msgid "Captcha confirmation error!"
-msgstr "Captcha bevestigingsfout! "
+msgstr "Captcha bevestigingsfout!"
 
 #: ../wpCaptcha.php:92
 msgid "Incorrect captcha confirmation!"
-msgstr "Verkeerde captcha bevestiging! "
+msgstr "Onjuiste captcha bevestiging!"
 
 #: ../wpCaptcha.php:181
 msgid "CAPTCHA cannot be empty."
-msgstr "CAPTCHA kan leeg niet zijn. "
+msgstr "CAPTCHA kan niet leeg zijn."
 
 #: ../wpCaptcha.php:185
 #: ../wpCaptcha.php:279
 msgid "Error: Incorrect CAPTCHA. Press your browser's back button and try again."
-msgstr "Fout: Verkeerde CAPTCHA. Druk de achterknoop en poging van uw browser opnieuw. "
+msgstr "Fout: Onjuiste CAPTCHA. Gebruik de vorige knop in uw browser en probeer het opnieuw."
 
 #: ../wpCaptcha.php:218
 #: ../wpCaptcha.php:225
@@ -148,10 +148,10 @@ msgstr "FOUT"
 #: ../wpCaptcha.php:233
 #: ../wpCaptcha.php:272
 msgid "Please complete the CAPTCHA."
-msgstr "Vervolledig alstublieft de CAPTCHA."
+msgstr "Vul aub de CAPTCHA in."
 
 #: ../wpCaptcha.php:225
 #: ../wpCaptcha.php:240
 msgid "That CAPTCHA was incorrect."
-msgstr "Die CAPTCHA was verkeerd. "
+msgstr "Die CAPTCHA is onjuist."
 
