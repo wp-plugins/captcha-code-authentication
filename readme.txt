@@ -24,8 +24,7 @@ Adds Captcha Code anti-spam methods to WordPress forms. Forms include comments f
 
 = Donations =
 
-Thanks for downloading and installing my plugin. You can show your appreciation and support future development by donating. 
-To donate visit my site http://www.fingerfish.com.
+Thanks for downloading and installing my plugin. You can show your appreciation and support future development by donating. To donate visit my site http://www.fingerfish.com.
 
 For more visit: http://fingerfish.com/captcha-code-authentication/
 
@@ -39,7 +38,7 @@ The translation were done using a translation software. I am not sure about the 
 * German (Tranlsated by Simon)
 * Portugese (European)
 * Portugese - Brazilian (Translated by Rafael Santos)
-* Russian
+* Russian (Translated by Andris Vonda)
 * Spanish (Translated by Juan Cuquejo)
 
 == Installation ==
@@ -64,6 +63,9 @@ Uninstalling is as simple as deactivating the plugin.
 4. screenshot-4.png
 
 == Change Log ==
+= Version 1.7 =
+* Russian translation improved. (Translated by Andris Vonda)
+
 = Version 1.6 =
 * Dutch translation improved. (Translated by Duncan Bruns)
 * Spanish translation improved. (Translated by Juan Cuquejo)
