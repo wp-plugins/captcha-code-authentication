@@ -1,6 +1,6 @@
 === Captcha Code===
 Contributors: vinoj.cardoza
-Donate link: http://www.fingerfish.com/
+Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=vinoj%2ecardoza%40gmail%2ecom&currency_code=GBP&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8
 Tags: captcha, captcha code, wordpress, wordpress captcha, captcha for wordpress, form captcha, forms captcha, captcha security, security
 Requires at least: 3.0
 Tested up to: 3.4.1
@@ -24,7 +24,7 @@ Adds Captcha Code anti-spam methods to WordPress forms. Forms include comments f
 
 = Donations =
 
-Thanks for downloading and installing my plugin. You can show your appreciation and support future development by donating. To donate visit my site http://www.fingerfish.com.
+Thanks for downloading and installing my plugin. You can show your appreciation and support future development by donating.
 
 For more visit: http://fingerfish.com/captcha-code-authentication/
 
