@@ -63,6 +63,9 @@ Uninstalling is as simple as deactivating the plugin.
 4. screenshot-4.png
 
 == Change Log ==
+= Version 1.8 =
+* Tab index included in login page. (Suggested by Simon)
+
 = Version 1.7 =
 * Russian translation improved. (Translated by Andris Vonda)
 
