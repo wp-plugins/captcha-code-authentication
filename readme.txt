@@ -26,10 +26,10 @@ Adds Captcha Code anti-spam methods to WordPress forms. Forms include comments f
 
 Thanks for downloading and installing my plugin. You can show your appreciation and support future development by donating.
 
-For more visit: http://fingerfish.com/captcha-code-authentication/
+For more visit: http://www.vinojcardoza.com/captcha-code-authentication/
 
 = Translation =
-The translation were done using a translation software. I am not sure about the correctness of the translation. If you find some mistakes in the translation of your language, please let me know through the following link comments section. Also, if you couldn't find your language and you can do it, please let me know. http://fingerfish.com/captcha-code-authentication/
+The translation were done using a translation software. I am not sure about the correctness of the translation. If you find some mistakes in the translation of your language, please let me know through the following link comments section. Also, if you couldn't find your language and you can do it, please let me know. http://www.vinojcardoza.com/captcha-code-authentication/
 
 = Translation available for following languages =
 * Czech (Translated by Jan)

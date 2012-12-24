@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Captcha Code
-Plugin URI: http://fingerfish.com/captcha-code-authentication/
+Plugin URI: http://www.vinojcardoza.com/captcha-code-authentication/
 Description: Adds Captcha Code anti-spam methods to User front-end WordPress forms.
 Version: 1.8
 Author: Vinoj Cardoza
-Author URI: http://fingerfish.com/about-me/
+Author URI: http://www.vinojcardoza.com/about-me/
 License: GPL2
 */
 
