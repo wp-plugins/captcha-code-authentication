@@ -36,9 +36,11 @@ The translation were done using a translation software. I am not sure about the 
 * Dutch (Translated by Duncan Bruns)
 * French (Translated by Laurent Verpeet)
 * German (Tranlsated by Simon)
+* Polish (Translated by Hoek)
 * Portugese (European)
 * Portugese - Brazilian (Translated by Rafael Santos)
 * Russian (Translated by Andris Vonda)
+* Slovak (Translated by Tomas Bujna)
 * Spanish (Translated by Juan Cuquejo)
 
 == Installation ==
@@ -63,6 +65,10 @@ Uninstalling is as simple as deactivating the plugin.
 4. screenshot-4.png
 
 == Change Log ==
+= Version 1.9 =
+* Polish translation added (Translated by Hoek)
+* Slovak translation added (Translated by Tomas Bujna)
+
 = Version 1.8 =
 * Tab index included in login page. (Suggested by Simon)
 
