@@ -7,7 +7,7 @@ Tested up to: 3.5
 Stable tag: trunk
 License: GPLv2 or later
 
-Adds Captcha Code anti-spam methods to WordPress forms. Forms include comments form, registration form, lost passwordform and login form. In order to post comments or register, users will have to type in the code shown on the image. This prevents spam from automated bots. Adds security.
+Adds Captcha Code anti-spam methods to WordPress forms. Forms include comments form, registration form, lost passwordform and login form.
 
 == Description ==
 Adds Captcha Code anti-spam methods to WordPress forms. Forms include comments form, registration form, lost passwordform and login form. In order to post comments or register, users will have to type in the code shown on the image. This prevents spam from automated bots. Adds security.
