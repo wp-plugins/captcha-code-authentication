@@ -65,6 +65,10 @@ Uninstalling is as simple as deactivating the plugin.
 4. screenshot-4.png
 
 == Change Log ==
+
+= Version 2.0 =
+* Notices debugged and cleared in this version.
+
 = Version 1.9 =
 * Polish translation added (Translated by Hoek)
 * Slovak translation added (Translated by Tomas Bujna)

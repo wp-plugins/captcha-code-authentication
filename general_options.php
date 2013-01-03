@@ -34,20 +34,35 @@ if(isset($_POST['save_captcha_options'])){
 }
 
 	$c_login = get_option('wpcaptcha_login');
-	if($c_login == 'yes') $c_login_yes = 'selected="selected"';
+	$c_login_yes = null;
+	$c_login_no = null;
+	if(!empty($c_login) && $c_login == 'yes') $c_login_yes = 'selected="selected"';
 	else $c_login_no = 'selected="selected"';
+	
 	$c_register = get_option('wpcaptcha_register');
-	if($c_register == 'yes') $c_register_yes = 'selected="selected"';
+	$c_register_yes = null;
+	$c_register_no = null;
+	if(!empty($c_register) && $c_register == 'yes') $c_register_yes = 'selected="selected"';
 	else $c_register_no = 'selected="selected"';
+	
 	$c_lost = get_option('wpcaptcha_lost');
-	if($c_lost == 'yes') $c_lost_yes = 'selected="selected"';
+	$c_lost_yes = null;
+	$c_lost_no = null;
+	if(!empty($c_lost) && $c_lost == 'yes') $c_lost_yes = 'selected="selected"';
 	else $c_lost_no = 'selected="selected"';
+	
 	$c_comments = get_option('wpcaptcha_comments');
-	if($c_comments == 'yes') $c_comments_yes = 'selected="selected"';
+	$c_comments_yes = null;
+	$c_comments_no = null;
+	if(!empty($c_register) && $c_comments == 'yes') $c_comments_yes = 'selected="selected"';
 	else $c_comments_no = 'selected="selected"';
+	
 	$c_registered = get_option('wpcaptcha_registered');
-	if($c_registered == 'yes') $c_registered_yes = 'selected="selected"';
+	$c_registered_yes = null;
+	$c_registered_no = null;
+	if(!empty($c_registered) && $c_registered == 'yes') $c_registered_yes = 'selected="selected"';
 	else $c_registered_no = 'selected="selected"';
+	
 	$c_type = get_option('wpcaptcha_type');
 	$c_letters = get_option('wpcaptcha_letters');
 	$c_total_no_of_characters = get_option('wpcaptcha_total_no_of_characters');
