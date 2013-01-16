@@ -73,7 +73,7 @@ function include_wp_captcha_login(){
 			<div style="clear:both;"></div>';
 			
 	/* Will retrieve the get varibale and prints a message from url if the captcha is wrong */
-	if( $_GET['captcha'] == 'confirm_error' ) {
+	if(isset($_GET['captcha']) && $_GET['captcha'] == 'confirm_error' ) {
 		echo '<label style="color:#FF0000;" id="capt_err" for="captcha_code_error">'.$_SESSION['captcha_error'].'</label><div style="clear:both;"></div>';;
 		$_SESSION['captcha_error'] = '';
 	}
@@ -99,7 +99,7 @@ function include_captcha_login_errors($errors){
 function include_captcha_login_redirect($url){
 	
 	/* Captcha mismatch */
-	if($_SESSION['captcha_code'] != $_REQUEST['captcha_code']){
+	if(isset($_SESSION['captcha_code']) && isset($_REQUEST['captcha_code']) && $_SESSION['captcha_code'] != $_REQUEST['captcha_code']){
 		$_SESSION['captcha_error'] = __('Incorrect captcha confirmation!', 'wpcaptchadomain');
 		wp_clear_auth_cookie();
 		return $_SERVER["REQUEST_URI"]."/?captcha='confirm_error'";
