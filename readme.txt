@@ -32,6 +32,7 @@ For more visit: http://www.vinojcardoza.com/captcha-code-authentication/
 The translation were done using a translation software. I am not sure about the correctness of the translation. If you find some mistakes in the translation of your language, please let me know through the following link comments section. Also, if you couldn't find your language and you can do it, please let me know. http://www.vinojcardoza.com/captcha-code-authentication/
 
 = Translation available for following languages =
+* Chinese (Translated by Leonardo Losoviz)
 * Czech (Translated by Jan)
 * Dutch (Translated by Duncan Bruns)
 * French (Translated by Laurent Verpeet)
@@ -65,6 +66,9 @@ Uninstalling is as simple as deactivating the plugin.
 4. screenshot-4.png
 
 == Change Log ==
+
+= Version 2.1 =
+* Chinese translation added (Translated by Leonardo Losoviz)
 
 = Version 2.0 =
 * Notices debugged and cleared in this version.
