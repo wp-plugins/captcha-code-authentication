@@ -43,6 +43,7 @@ The translation were done using a translation software. I am not sure about the 
 * Russian (Translated by Andris Vonda)
 * Slovak (Translated by Tomas Bujna)
 * Spanish (Translated by Juan Cuquejo)
+* Swedish (Translated by Carl-Gunnar)
 
 == Installation ==
 
@@ -66,6 +67,8 @@ Uninstalling is as simple as deactivating the plugin.
 4. screenshot-4.png
 
 == Change Log ==
+= Version 2.2 =
+* Swedish translation added (Translated by Carl-Gunnar)
 
 = Version 2.1 =
 * Chinese translation added (Translated by Leonardo Losoviz)
