@@ -1,0 +1,140 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpcaptchadomain\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-16 12:24-0000\n"
+"PO-Revision-Date: 2013-01-16 12:24-0000\n"
+"Last-Translator: Vinoj Cardoza <vinoj.cardoza@gmail.com>\n"
+"Language-Team: Vinoj Cardoza <vinoj.cardoza@gmail.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../general_options.php:9
+msgid "CAPTCHA"
+msgstr "验证码"
+
+#: ../general_options.php:16
+msgid "Options saved."
+msgstr "选项已保存。"
+
+#: ../general_options.php:73
+msgid "Select Captcha letters type"
+msgstr "选择验证码字母型"
+
+#: ../general_options.php:76
+msgid "Capital letters only"
+msgstr "大写字母"
+
+#: ../general_options.php:77
+msgid "Small letters only"
+msgstr "小写字母"
+
+#: ../general_options.php:78
+msgid "Capital & Small letters"
+msgstr "大写和小写字母"
+
+#: ../general_options.php:83
+msgid "Select a Captcha type"
+msgstr "选择验证码类型"
+
+#: ../general_options.php:86
+msgid "Alphanumeric"
+msgstr "字母数字"
+
+#: ../general_options.php:87
+msgid "Alphabets only"
+msgstr "字母"
+
+#: ../general_options.php:88
+msgid "Numbers only"
+msgstr "数字"
+
+#: ../general_options.php:93
+msgid "Total number of Captcha Characters"
+msgstr "验证码字符总数"
+
+#: ../general_options.php:107
+msgid "Captcha display Options"
+msgstr "验证码显示选项"
+
+#: ../general_options.php:110
+msgid "Enable Captcha for Login form"
+msgstr "登录表单启用验证码"
+
+#: ../general_options.php:113 ../general_options.php:122
+#: ../general_options.php:131 ../general_options.php:140
+#: ../general_options.php:149
+msgid "Yes"
+msgstr "是"
+
+#: ../general_options.php:114 ../general_options.php:123
+#: ../general_options.php:132 ../general_options.php:141
+#: ../general_options.php:150
+msgid "No"
+msgstr "不"
+
+#: ../general_options.php:119
+msgid "Enable Captcha for Register form"
+msgstr "注册表单启用验证码"
+
+#: ../general_options.php:128
+msgid "Enable Captcha for Lost Password form"
+msgstr "忘记密码表单启用验证码"
+
+#: ../general_options.php:137
+msgid "Enable Captcha for Comments form"
+msgstr "谈论表单启用验证码"
+
+#: ../general_options.php:146
+msgid "Hide Captcha for logged in users"
+msgstr "对已登录用户隐藏验证码"
+
+#: ../general_options.php:155
+msgid "Save"
+msgstr "保存"
+
+#: ../wpCaptcha.php:36 ../wpCaptcha.php:69 ../wpCaptcha.php:135
+#: ../wpCaptcha.php:155 ../wpCaptcha.php:213 ../wpCaptcha.php:267
+msgid "Captcha"
+msgstr "验证码"
+
+#: ../wpCaptcha.php:81 ../wpCaptcha.php:140 ../wpCaptcha.php:160
+#: ../wpCaptcha.php:218 ../wpCaptcha.php:272
+msgid "Type the text displayed above"
+msgstr "输入上面显示的文本"
+
+#: ../wpCaptcha.php:93
+msgid "Captcha confirmation error!"
+msgstr "验证码确认错误！"
+
+#: ../wpCaptcha.php:103
+msgid "Incorrect captcha confirmation!"
+msgstr "验证码确认不正确！"
+
+#: ../wpCaptcha.php:192
+msgid "CAPTCHA cannot be empty."
+msgstr "验证码不能为空。"
+
+#: ../wpCaptcha.php:196 ../wpCaptcha.php:290
+msgid ""
+"Error: Incorrect CAPTCHA. Press your browser's back button and try again."
+msgstr "错误：验证码不正确。请按浏览器的后退按钮，再试一次。"
+
+#: ../wpCaptcha.php:229 ../wpCaptcha.php:236 ../wpCaptcha.php:244
+#: ../wpCaptcha.php:251
+msgid "ERROR"
+msgstr "错误"
+
+#: ../wpCaptcha.php:229 ../wpCaptcha.php:244 ../wpCaptcha.php:283
+msgid "Please complete the CAPTCHA."
+msgstr "请填写验证码。"
+
+#: ../wpCaptcha.php:236 ../wpCaptcha.php:251
+msgid "That CAPTCHA was incorrect."
+msgstr "验证码是不正确的。"
