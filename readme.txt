@@ -35,6 +35,7 @@ The translation were done using a translation software. I am not sure about the 
 * Chinese (Translated by Leonardo Losoviz)
 * Czech (Translated by Jan)
 * Dutch (Translated by Duncan Bruns)
+* Finnish (Translated by Joni Tyvio)
 * French (Translated by Laurent Verpeet)
 * German (Tranlsated by Simon)
 * Polish (Translated by Hoek)
@@ -67,6 +68,10 @@ Uninstalling is as simple as deactivating the plugin.
 4. screenshot-4.png
 
 == Change Log ==
+
+= Version 2.3 =
+* Finnish translation added (Translated by Joni Tyvio)
+
 = Version 2.2 =
 * Swedish translation added (Translated by Carl-Gunnar)
 
