@@ -1,16 +1,21 @@
 <?php 
-
 session_start();
+
 //Settings: You can customize the captcha here
 $image_width = 120;
 $image_height = 40;
-$characters_on_image = $_SESSION['total_no_of_characters'];
+
+if(isset($_SESSION['total_no_of_characters']))
+	$characters_on_image = $_SESSION['total_no_of_characters'];
+
 $font = './monofont.ttf';
 
 //The characters that can be used in the CAPTCHA code.
 //avoid confusing characters (l 1 and i for example)
-if($_SESSION['captcha_type'] == 'alphanumeric'){
-	switch($_SESSION['captcha_letters']){
+if(isset($_SESSION['captcha_type']) && $_SESSION['captcha_type'] == 'alphanumeric')
+{
+	switch($_SESSION['captcha_letters'])
+	{
 		case 'capital': 
 			$possible_letters = '23456789ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 			break;
@@ -25,8 +30,10 @@ if($_SESSION['captcha_type'] == 'alphanumeric'){
 			break;
 	} 
 }
-elseif($_SESSION['captcha_type'] == 'alphabets'){
-	switch($_SESSION['captcha_letters']){
+elseif(isset($_SESSION['captcha_type']) && $_SESSION['captcha_type'] == 'alphabets')
+{
+	switch($_SESSION['captcha_letters'])
+	{
 		case 'capital': 
 			$possible_letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 			break;
@@ -41,10 +48,12 @@ elseif($_SESSION['captcha_type'] == 'alphabets'){
 			break;
 	}
 }
-elseif($_SESSION['captcha_type'] == 'numbers'){
+elseif(isset($_SESSION['captcha_type']) && $_SESSION['captcha_type'] == 'numbers')
+{
 	$possible_letters = '0123456789';
 }
-else{
+else
+{
 	$possible_letters = '0123456789';
 }
 $random_dots = 0;
@@ -56,9 +65,10 @@ $code = '';
 
 
 $i = 0;
-while ($i < $characters_on_image) { 
-$code .= substr($possible_letters, mt_rand(0, strlen($possible_letters)-1), 1);
-$i++;
+while ($i < $characters_on_image) 
+{ 
+	$code .= substr($possible_letters, mt_rand(0, strlen($possible_letters)-1), 1);
+	$i++;
 }
 
 
@@ -79,16 +89,15 @@ $image_noise_color = imagecolorallocate($image, $arr_noice_color['red'],
 
 
 /* generating the dots randomly in background */
-for( $i=0; $i<$random_dots; $i++ ) {
-imagefilledellipse($image, mt_rand(0,$image_width),
- mt_rand(0,$image_height), 2, 3, $image_noise_color);
+for( $i=0; $i<$random_dots; $i++ ) 
+{
+	imagefilledellipse($image, mt_rand(0,$image_width), mt_rand(0,$image_height), 2, 3, $image_noise_color);
 }
 
 
 /* generating lines randomly in background of image */
 for( $i=0; $i<$random_lines; $i++ ) {
-imageline($image, mt_rand(0,$image_width), mt_rand(0,$image_height),
- mt_rand(0,$image_width), mt_rand(0,$image_height), $image_noise_color);
+	imageline($image, mt_rand(0,$image_width), mt_rand(0,$image_height), mt_rand(0,$image_width), mt_rand(0,$image_height), $image_noise_color);
 }
 
 

@@ -38,6 +38,7 @@ The translation were done using a translation software. I am not sure about the 
 * Finnish (Translated by Joni Tyvio)
 * French (Translated by Laurent Verpeet)
 * German (Tranlsated by Simon)
+* Persian (Translated by Saeed)
 * Polish (Translated by Hoek)
 * Portugese (European)
 * Portugese - Brazilian (Translated by Rafael Santos)
@@ -68,6 +69,10 @@ Uninstalling is as simple as deactivating the plugin.
 4. screenshot-4.png
 
 == Change Log ==
+
+= Version 2.4 =
+* Persian translation added (Translated by Saeed)
+* Suggestion by Leonardo Losoviz amended to check isset session.
 
 = Version 2.3 =
 * Finnish translation added (Translated by Joni Tyvio)
