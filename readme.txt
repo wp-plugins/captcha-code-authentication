@@ -70,6 +70,9 @@ Uninstalling is as simple as deactivating the plugin.
 
 == Change Log ==
 
+= Version 2.5 =
+* Support URL updated.
+
 = Version 2.4 =
 * Persian translation added (Translated by Saeed)
 * Suggestion by Leonardo Losoviz amended to check isset session.
