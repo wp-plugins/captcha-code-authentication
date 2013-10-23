@@ -24,7 +24,7 @@ Adds Captcha Code anti-spam methods to WordPress forms. Forms include comments f
 
 = Support =
 
-Thanks for downloading and installing my plugin. You can show your appreciation and support future development by donating or clicking the ads on the blog page.
+Thanks for downloading and installing my plugin. You can show your appreciation and support future development by donating.
 
 Blog page: http://www.vinojcardoza.com/blog/captcha-code-authentication/
 
