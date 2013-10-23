@@ -22,11 +22,11 @@ Adds Captcha Code anti-spam methods to WordPress forms. Forms include comments f
 1. If you find any bugs, please report in the following link, so that it will be fixed as quick as possible.
 2. If you think any feature adding to this plugin can improve its features, please recommend it in the following link.
 
-= Donations =
+= Support =
 
-Thanks for downloading and installing my plugin. You can show your appreciation and support future development by donating.
+Thanks for downloading and installing my plugin. You can show your appreciation and support future development by donating or clicking the ads on the blog page.
 
-For more visit: http://www.vinojcardoza.com/captcha-code-authentication/
+Blog page: http://www.vinojcardoza.com/blog/captcha-code-authentication/
 
 = Translation =
 The translation were done using a translation software. I am not sure about the correctness of the translation. If you find some mistakes in the translation of your language, please let me know through the following link comments section. Also, if you couldn't find your language and you can do it, please let me know. http://www.vinojcardoza.com/captcha-code-authentication/
