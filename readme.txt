@@ -70,6 +70,9 @@ Uninstalling is as simple as deactivating the plugin.
 
 == Change Log ==
 
+= Version 2.6 =
+* Admin options form updated with Wordpress forms standards.
+
 = Version 2.5 =
 * Support URL updated.
 
