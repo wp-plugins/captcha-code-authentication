@@ -1,0 +1,144 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpcaptchadomain\n"
+"POT-Creation-Date: 2013-04-19 11:45-0000\n"
+"PO-Revision-Date: 2013-04-19 11:52-0000\n"
+"Last-Translator: Vinoj Cardoza <vinoj.cardoza@gmail.com>\n"
+"Language-Team: vinojcardoza <vinoj.cardoza@gmail.com>\n"
+"Language: fi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../tagcloud/general_options.php:9
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: ../tagcloud/general_options.php:16
+msgid "Options saved."
+msgstr "Asetukset tallennettu."
+
+#: ../tagcloud/general_options.php:73
+msgid "Select Captcha letters type"
+msgstr "Valitse CAPTCHA kirjainten koko"
+
+#: ../tagcloud/general_options.php:76
+msgid "Capital letters only"
+msgstr "Suuret kirjaimet"
+
+#: ../tagcloud/general_options.php:77
+msgid "Small letters only"
+msgstr "Pienet kirjaimet"
+
+#: ../tagcloud/general_options.php:78
+msgid "Capital & Small letters"
+msgstr "Suuret ja pienet kirjaimet"
+
+#: ../tagcloud/general_options.php:83
+msgid "Select a Captcha type"
+msgstr "Valitse CAPTCHA tyyppi"
+
+#: ../tagcloud/general_options.php:86
+msgid "Alphanumeric"
+msgstr "Aakkosnumeerinen"
+
+#: ../tagcloud/general_options.php:87
+msgid "Alphabets only"
+msgstr "Vain aakkoset"
+
+#: ../tagcloud/general_options.php:88
+msgid "Numbers only"
+msgstr "Vain numerot"
+
+#: ../tagcloud/general_options.php:93
+msgid "Total number of Captcha Characters"
+msgstr "Kokonaismäärä Captcha Hahmot"
+
+#: ../tagcloud/general_options.php:107
+msgid "Captcha display Options"
+msgstr "CAPTCHA esitysasetukset"
+
+#: ../tagcloud/general_options.php:110
+msgid "Enable Captcha for Login form"
+msgstr "Näytetään kirjautuessa"
+
+#: ../tagcloud/general_options.php:113 ../tagcloud/general_options.php:122
+#: ../tagcloud/general_options.php:131 ../tagcloud/general_options.php:140
+#: ../tagcloud/general_options.php:149
+msgid "Yes"
+msgstr "Kyllä"
+
+#: ../tagcloud/general_options.php:114 ../tagcloud/general_options.php:123
+#: ../tagcloud/general_options.php:132 ../tagcloud/general_options.php:141
+#: ../tagcloud/general_options.php:150
+msgid "No"
+msgstr "Ei"
+
+#: ../tagcloud/general_options.php:119
+msgid "Enable Captcha for Register form"
+msgstr "Näytetään rekisteröityessä"
+
+#: ../tagcloud/general_options.php:128
+msgid "Enable Captcha for Lost Password form"
+msgstr "Näytetään uutta salasanaa pyydettäessä"
+
+#: ../tagcloud/general_options.php:137
+msgid "Enable Captcha for Comments form"
+msgstr "Näytetään kommentoitaessa"
+
+#: ../tagcloud/general_options.php:146
+msgid "Hide Captcha for logged in users"
+msgstr "Piilota CAPTCHA sisäänkirjautuneilta käyttäjiltä"
+
+#: ../tagcloud/general_options.php:155
+msgid "Save"
+msgstr "Tallenna"
+
+#: ../tagcloud/wpCaptcha.php:36 ../tagcloud/wpCaptcha.php:69
+#: ../tagcloud/wpCaptcha.php:135 ../tagcloud/wpCaptcha.php:155
+#: ../tagcloud/wpCaptcha.php:213 ../tagcloud/wpCaptcha.php:267
+msgid "Captcha"
+msgstr "Captcha"
+
+#: ../tagcloud/wpCaptcha.php:81 ../tagcloud/wpCaptcha.php:140
+#: ../tagcloud/wpCaptcha.php:160 ../tagcloud/wpCaptcha.php:218
+#: ../tagcloud/wpCaptcha.php:272
+msgid "Type the text displayed above"
+msgstr "Kirjoita yllä oleva koodi"
+
+#: ../tagcloud/wpCaptcha.php:93
+msgid "Captcha confirmation error!"
+msgstr "CAPTCHA vahvistusvirhe!"
+
+#: ../tagcloud/wpCaptcha.php:103
+msgid "Incorrect captcha confirmation!"
+msgstr "Väärä CAPTCHA vahvistus!"
+
+#: ../tagcloud/wpCaptcha.php:192
+msgid "CAPTCHA cannot be empty."
+msgstr "CAPTHCA ei voi olla tyhjä."
+
+#: ../tagcloud/wpCaptcha.php:196 ../tagcloud/wpCaptcha.php:290
+msgid ""
+"Error: Incorrect CAPTCHA. Press your browser's back button and try again."
+msgstr ""
+"Virhe: Väärä CAPTHCA koodi. Paina selaimesi takaisinpaluu -painiketta ja "
+"kokeile uudelleen."
+
+#: ../tagcloud/wpCaptcha.php:229 ../tagcloud/wpCaptcha.php:236
+#: ../tagcloud/wpCaptcha.php:244 ../tagcloud/wpCaptcha.php:251
+msgid "ERROR"
+msgstr "VIRHE"
+
+#: ../tagcloud/wpCaptcha.php:229 ../tagcloud/wpCaptcha.php:244
+#: ../tagcloud/wpCaptcha.php:283
+msgid "Please complete the CAPTCHA."
+msgstr "Ole hyvä ja täytä CAPTCHA."
+
+#: ../tagcloud/wpCaptcha.php:236 ../tagcloud/wpCaptcha.php:251
+msgid "That CAPTCHA was incorrect."
+msgstr "Syöttämäsi CAPTCHA oli väärin."
