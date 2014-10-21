@@ -3,7 +3,7 @@ Contributors: vinoj.cardoza
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=vinoj%2ecardoza%40gmail%2ecom&currency_code=GBP&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8
 Tags: captcha, captcha code, wordpress, wordpress captcha, captcha for wordpress, form captcha, forms captcha, captcha security, security
 Requires at least: 3.0
-Tested up to: 3.5
+Tested up to: 4.0
 Stable tag: trunk
 License: GPLv2 or later
 
@@ -32,6 +32,7 @@ Blog page: http://www.vinojcardoza.com/blog/captcha-code-authentication/
 The translation were done using a translation software. I am not sure about the correctness of the translation. If you find some mistakes in the translation of your language, please let me know through the following link comments section. Also, if you couldn't find your language and you can do it, please let me know. http://www.vinojcardoza.com/captcha-code-authentication/
 
 = Translation available for following languages =
+* Catalan (Translated by SiVolsThoEnsenyo)
 * Chinese (Translated by Leonardo Losoviz)
 * Czech (Translated by Jan)
 * Dutch (Translated by Duncan Bruns)
@@ -69,8 +70,10 @@ Uninstalling is as simple as deactivating the plugin.
 4. screenshot-4.png
 
 == Change Log ==
+= Version 2.5.2 =
+* Catalan translation added. (Translated by SiVolsThoEnsenyo)
 
-= Version 2.6 =
+= Version 2.5.1 =
 * Admin options form updated with Wordpress forms standards.
 
 = Version 2.5 =
