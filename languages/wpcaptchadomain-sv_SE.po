@@ -1,0 +1,142 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wpcaptchadomain\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-03 11:48-0000\n"
+"PO-Revision-Date: 2013-04-06 17:48+0100\n"
+"Last-Translator: Carl-Gunnar Sjöberg <sjellac@gmail.com>\n"
+"Language-Team: Vinoj Cardoza <vinoj.cardoza@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;_e;__\n"
+"X-Poedit-Basepath: .\n"
+"Language: de_DE\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../general_options.php:9
+msgid "CAPTCHA"
+msgstr "CAPTCHA"
+
+#: ../general_options.php:16
+msgid "Options saved."
+msgstr "Inställningar sparade."
+
+#: ../general_options.php:58
+msgid "Select Captcha letters type"
+msgstr "Välj typ av Captcha bokstäver"
+
+#: ../general_options.php:61
+msgid "Capital letters only"
+msgstr "Endast versaler"
+
+#: ../general_options.php:62
+msgid "Small letters only"
+msgstr "Endast gemener"
+
+#: ../general_options.php:63
+msgid "Capital & Small letters"
+msgstr "Versaler & gemener"
+
+#: ../general_options.php:68
+msgid "Select a Captcha type"
+msgstr "Välj typ av Captcha tecken"
+
+#: ../general_options.php:71
+msgid "Alphanumeric"
+msgstr "Alfanumerisk"
+
+#: ../general_options.php:72
+msgid "Alphabets only"
+msgstr "Endast bokstäver"
+
+#: ../general_options.php:73
+msgid "Numbers only"
+msgstr "Endast siffror"
+
+#: ../general_options.php:78
+msgid "Total number of Captcha Characters"
+msgstr "Antal Captcha tecken"
+
+#: ../general_options.php:92
+msgid "Captcha display Options"
+msgstr "Inställningar för visning av Captcha"
+
+#: ../general_options.php:95
+msgid "Enable Captcha for Login form"
+msgstr "Aktivera Captcha i inloggningsformulär"
+
+#: ../general_options.php:98 ../general_options.php:107
+#: ../general_options.php:116 ../general_options.php:125
+#: ../general_options.php:134
+msgid "Yes"
+msgstr "Ja"
+
+#: ../general_options.php:99 ../general_options.php:108
+#: ../general_options.php:117 ../general_options.php:126
+#: ../general_options.php:135
+msgid "No"
+msgstr "Nej"
+
+#: ../general_options.php:104
+msgid "Enable Captcha for Register form"
+msgstr "Aktivera Captcha i registreringsformulär"
+
+#: ../general_options.php:113
+msgid "Enable Captcha for Lost Password form"
+msgstr "Aktivera Captcha i formulär för lösenordsåterställning"
+
+#: ../general_options.php:122
+msgid "Enable Captcha for Comments form"
+msgstr "Aktivera Captcha i kommentarsformulär"
+
+#: ../general_options.php:131
+msgid "Hide Captcha for logged in users"
+msgstr "Göm Captcha för inloggade användare"
+
+#: ../general_options.php:140
+msgid "Save"
+msgstr "Spara"
+
+#: ../wpCaptcha.php:25 ../wpCaptcha.php:58 ../wpCaptcha.php:124
+#: ../wpCaptcha.php:144 ../wpCaptcha.php:202 ../wpCaptcha.php:256
+msgid "Captcha"
+msgstr "Captcha"
+
+#: ../wpCaptcha.php:70 ../wpCaptcha.php:129 ../wpCaptcha.php:149
+#: ../wpCaptcha.php:207 ../wpCaptcha.php:261
+msgid "Type the text displayed above"
+msgstr "Skriv in tecknen som visas ovanför"
+
+#: ../wpCaptcha.php:82
+msgid "Captcha confirmation error!"
+msgstr "Captcha kunde inte konfirmeras!"
+
+#: ../wpCaptcha.php:92
+msgid "Incorrect captcha confirmation!"
+msgstr "Inkorrekt Captcha angiven!"
+
+#: ../wpCaptcha.php:181
+msgid "CAPTCHA cannot be empty."
+msgstr "CAPTCHA kan inte vara tom."
+
+#: ../wpCaptcha.php:185 ../wpCaptcha.php:279
+msgid ""
+"Error: Incorrect CAPTCHA. Press your browser's back button and try again."
+msgstr ""
+"Fel: Inkorrekt CAPTCHA. Tryck på din webbläsares \"Tillbaka-knapp\" och "
+"försök igen."
+
+#: ../wpCaptcha.php:218 ../wpCaptcha.php:225 ../wpCaptcha.php:233
+#: ../wpCaptcha.php:240
+msgid "ERROR"
+msgstr "FEL"
+
+#: ../wpCaptcha.php:218 ../wpCaptcha.php:233 ../wpCaptcha.php:272
+msgid "Please complete the CAPTCHA."
+msgstr "Var vänlig och komplettera CAPTCHA."
+
+#: ../wpCaptcha.php:225 ../wpCaptcha.php:240
+msgid "That CAPTCHA was incorrect."
+msgstr "CAPTCHA-inmatningen var inkorrekt."
