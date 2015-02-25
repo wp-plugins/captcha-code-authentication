@@ -3,7 +3,7 @@ Contributors: vinoj.cardoza
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=vinoj%2ecardoza%40gmail%2ecom&currency_code=GBP&lc=US&bn=PP%2dDonationsBF&charset=UTF%2d8
 Tags: captcha, captcha code, wordpress, wordpress captcha, captcha for wordpress, form captcha, forms captcha, captcha security, security
 Requires at least: 3.0
-Tested up to: 4.0
+Tested up to: 4.1.1
 Stable tag: trunk
 License: GPLv2 or later
 
@@ -70,6 +70,9 @@ Uninstalling is as simple as deactivating the plugin.
 4. screenshot-4.png
 
 == Change Log ==
+= Version 2.5.3 =
+* Tested compatibility with Wordpress version 4.1.1
+
 = Version 2.5.2 =
 * Catalan translation added. (Translated by SiVolsThoEnsenyo)
 

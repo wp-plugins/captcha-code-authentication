@@ -3,7 +3,7 @@
 Plugin Name: Captcha Code
 Plugin URI: http://www.vinojcardoza.com/blog/captcha-code-authentication/
 Description: Adds Captcha Code anti-spam methods to User front-end WordPress forms.
-Version: 2.5.2
+Version: 2.5.3
 Author: Vinoj Cardoza
 Author URI: http://www.vinojcardoza.com
 License: GPL2
